@@ -11,7 +11,6 @@
 ## Структура проекта:
 ```
 language_simulator/
-language_trainer/
 │
 ├── main.py                     # Точка входа 
 │
@@ -40,3 +39,5 @@ language_trainer/
 │   ├── quiz_session.py         # Класс сессии
 │   └── scoring.py              # Отдельно логика подсчёта очков 
 ```
+
+# Воронцова Анна, 22ФПЛ-2
