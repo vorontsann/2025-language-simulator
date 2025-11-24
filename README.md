@@ -14,30 +14,41 @@ language_simulator/
 │
 ├── main.py                     # Точка входа 
 │
+├── .gitignore 
+├── pyproject.toml 
+├── README.md 
 ├── requirements.txt            
 │
 ├── data/                       # Данные (CSV, JSON)
-│   ├── words.csv               # Слова, темы, языки
+│   ├── english.csv               # Словарь для английского языка, код EN
+│   ├── french.csv               # Словарь для французского языка, код FR
+│   ├── japanese.csv               # Словарь для японского языка (используется романзи), код JP
 │   ├── progress.json           # Прогресс пользователей 
-│   └── languages.json          # Список языков 
 │
-├── models/                     # Базовые объекты системы
-│   ├── __init__.py
-│   ├── language.py
-│   ├── topic.py
-│   ├── word_item.py
-│   ├── user.py
-│   └── progress.py
-│
-├── data_manager/               # Работа с CSV
-│   ├── __init__.py
-│   ├── data_manager.py         # Абстрактный интерфейс работы с данными
-│   ├── csv_data_manager.py     # Реализация через CSV
-│
-├── quiz/                       # Логика проведения тренировок
-│   ├── __init__.py
-│   ├── quiz_session.py         # Класс сессии
-│   └── scoring.py              # Отдельно логика подсчёта очков 
+└── src/
+    │
+    ├── models/                     # Базовые объекты системы
+    │   ├── __init__.py
+    │   ├── language.py
+    │   ├── topic.py
+    │   ├── word_item.py
+    │   ├── user.py
+    │   └── progress.py
+    │
+    ├── interface/     
+    │   ├── __init__.py
+    │    
+    │     
+    ├── data_manager/               # Работа с CSV
+    │   ├── __init__.py
+    │   ├── data_manager.py         # Абстрактный интерфейс работы с данными
+    │   ├── csv_data_manager.py     # Реализация через CSV
+    │   ├── progress_manager.py     # Сохранение прогресса пользователей
+    │
+    ├── quiz/                       # Логика проведения тренировок
+    │   ├── __init__.py
+    │   ├── quiz_session.py         # Класс сессии
+    │   └── scoring.py              # Отдельно логика подсчёта очков 
 ```
 
 # Воронцова Анна, 22ФПЛ-2
