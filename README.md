@@ -16,13 +16,12 @@ language_simulator/
 │
 ├── .gitignore 
 ├── pyproject.toml 
-├── README.md 
-├── requirements.txt            
+├── README.md            
 │
 ├── data/                       # Данные (CSV, JSON)
-│   ├── english.csv               # Словарь для английского языка, код EN
-│   ├── french.csv               # Словарь для французского языка, код FR
-│   ├── japanese.csv               # Словарь для японского языка (используется романзи), код JP
+│   ├── english.csv             # Словарь для английского языка, код EN
+│   ├── french.csv              # Словарь для французского языка, код FR
+│   ├── japanese.csv            # Словарь для японского языка (используется романзи), код JP
 │   ├── progress.json           # Прогресс пользователей 
 │
 └── src/
