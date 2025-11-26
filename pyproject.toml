@@ -1,6 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ['poetry-core==2.2.1']
+build-backend = 'poetry.core.masonry.api'
+
+[tool.poetry]
+package-mode = true
+packages = [{ include = 'lessons', from = 'src' }]
 
 [project]
 name = "language-simulator"
@@ -15,9 +19,6 @@ requires-python = ">=3.11"
 dependencies = [
     "pydantic>=2.5",
 ]
-
-[tool.setuptools.packages.find]
-where = ["src"]
 
 [tool.ruff]
 line-length = 120  # максимальная длина строки кода
