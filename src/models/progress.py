@@ -4,13 +4,16 @@ class Progress:
     """
 
     def __init__(self, correct: int = 0, wrong: int = 0):
+        if correct < 0 or wrong < 0:
+            raise ValueError("Progress values cannot be negative")
+
         self.correct = correct
         self.wrong = wrong
 
-    def record_correct(self):
+    def record_correct(self) -> None:
         self.correct += 1
 
-    def record_wrong(self):
+    def record_wrong(self) -> None:
         self.wrong += 1
 
     @property
@@ -19,9 +22,7 @@ class Progress:
 
     @property
     def accuracy(self) -> float:
-        if self.total == 0:
-            return 0.0
-        return self.correct / self.total
+        return self.correct / self.total if self.total else 0.0
 
     def to_dict(self) -> dict:
         return {
@@ -32,6 +33,6 @@ class Progress:
     @classmethod
     def from_dict(cls, data: dict) -> "Progress":
         return cls(
-            correct=data.get("correct", 0),
-            wrong=data.get("wrong", 0),
+            correct=int(data.get("correct", 0)),
+            wrong=int(data.get("wrong", 0)),
         )
