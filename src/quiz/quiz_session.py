@@ -1,99 +1,77 @@
 import random
-from typing import List, Optional
+from typing import Optional
 
-from src.models.word_item import WordItem
-from src.models.topic import Topic
-from src.models.language import Language
-from src.data_manager.progress_manager import ProgressManager
 from src.data_manager.data_manager import DataManager
+from src.data_manager.sqlite_user_manager import SQLiteUserManager
+from src.models.language import Language
+from src.models.topic import Topic
+from src.models.word_item import WordItem
 
 
 class QuizSession:
-    SESSION_SIZE = 10
-
     def __init__(
         self,
-        user_id: str,
+        user_id: int,
         language: Language,
         topic: Topic,
         data_manager: DataManager,
-        progress_manager: ProgressManager,
+        user_manager: SQLiteUserManager,
     ):
-        self.session_id = id(self)
         self.user_id = user_id
         self.language = language
         self.topic = topic
         self.data_manager = data_manager
-        self.progress_manager = progress_manager
+        self.user_manager = user_manager
 
-        self.items: List[WordItem] = []
-        self.current_item: Optional[WordItem] = None
+        self.words: list[WordItem] = self.data_manager.load_words(language, topic)
+        random.shuffle(self.words)
 
+        self.current_word: Optional[WordItem] = None
         self.correct_answers = 0
-        self.wrong_answers = 0
-
-        self._prepare_session()
-
-    def _prepare_session(self) -> None:
-        """
-        Load words by language and topic and prepare session queue.
-        """
-        all_words = self.data_manager.load_words(self.language)
-        topic_words = [w for w in all_words if w.topic == self.topic]
-
-        if len(topic_words) < self.SESSION_SIZE:
-            raise ValueError("Not enough words for selected topic")
-
-        self.items = random.sample(topic_words, self.SESSION_SIZE)
+        self.total_answers = 0
 
     def next_item(self) -> Optional[WordItem]:
-        if not self.items:
-            self.current_item = None
+        if not self.words:
             return None
 
-        self.current_item = self.items.pop()
-        return self.current_item
+        self.current_word = self.words.pop()
+        return self.current_word
 
-    def check_answer(self, answer: str) -> bool:
-        if not self.current_item:
+    def check_answer(self, user_answer: str) -> bool:
+        if not self.current_word:
             raise RuntimeError("No active word")
 
         is_correct = (
-                answer.strip().lower()
-                == self.current_item.translation.strip().lower()
+            user_answer.strip().lower()
+            == self.current_word.translation.strip().lower()
         )
 
+        self.total_answers += 1
         if is_correct:
             self.correct_answers += 1
-        else:
-            self.wrong_answers += 1
 
-        self.progress_manager.update_user_progress(
-            self.user_id, correct=is_correct
+        self.user_manager.update_stats(     # SQLite update
+            user_id=self.user_id,
+            is_correct=is_correct
         )
 
         return is_correct
 
+    def show_hint(self) -> str:
+        return self.current_word.hint
+
     def get_correct_answer(self) -> str:
-        if not self.current_item:
-            raise RuntimeError("No active word")
-        return self.current_item.translation
-
-    def show_hint(self) -> Optional[str]:
-        return self.current_item.hint if self.current_item else None
-
-    def is_finished(self) -> bool:
-        return self.current_item is None and not self.items
+        return self.current_word.translation
 
     def get_results(self) -> dict:
+        accuracy = (
+            self.correct_answers / self.total_answers
+            if self.total_answers > 0
+            else 0
+        )
+
         return {
             "correct": self.correct_answers,
-            "wrong": self.wrong_answers,
-            "total": self.correct_answers + self.wrong_answers,
-            "accuracy": (
-                self.correct_answers /
-                (self.correct_answers + self.wrong_answers)
-                if self.correct_answers + self.wrong_answers > 0 else 0.0
-            )
+            "wrong": self.total_answers - self.correct_answers,
+            "accuracy": accuracy,
         }
-

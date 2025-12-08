@@ -1,0 +1,101 @@
+﻿id,term,translation,example_sentence,hint,topic,language
+1,une pomme,яблоко,Je mange une pomme.,"круглый фрукт, часто красный",FOOD,FR
+2,du pain,хлеб,J’achète du pain.,продукт из теста,FOOD,FR
+3,du fromage,сыр,Le fromage est délicieux.,молочный продукт,FOOD,FR
+4,du lait,молоко,Je bois du lait.,белая жидкость,FOOD,FR
+5,un œuf,яйцо,Je cuisine un œuf.,продукт птицы,FOOD,FR
+6,du riz,рис,Nous mangeons du riz.,зерновой продукт,FOOD,FR
+7,des pâtes,макароны,Il aime les pâtes.,изделия из теста,FOOD,FR
+8,du poulet,курица,Le poulet est prêt.,мясо птицы,FOOD,FR
+9,du bœuf,говядина,Le bœuf est tendre.,мясо коровы,FOOD,FR
+10,du poisson,рыба,Je mange du poisson.,еда из водных животных,FOOD,FR
+11,une carotte,морковь,Le lapin mange une carotte.,оранжевый овощ,FOOD,FR
+12,une pomme de terre,картофель,Je coupe une pomme de terre.,крахмалистый овощ,FOOD,FR
+13,une tomate,помидор,La tomate est rouge.,сочный овощ,FOOD,FR
+14,un oignon,лук,Je coupe un oignon.,острый овощ,FOOD,FR
+15,une banane,банан,Elle mange une banane.,длинный жёлтый фрукт,FOOD,FR
+16,une orange,апельсин,Il pèle une orange.,цитрусовый фрукт,FOOD,FR
+17,du beurre,сливочное масло,J’ajoute du beurre.,молочный жир,FOOD,FR
+18,un chat,кошка,Le chat dort.,домашнее животное,ANIMALS,FR
+19,un chien,собака,Le chien court.,верный питомец,ANIMALS,FR
+20,un cheval,лошадь,Le cheval galope.,животное для езды,ANIMALS,FR
+21,une vache,корова,La vache mange.,даёт молоко,ANIMALS,FR
+22,un mouton,овца,Le mouton est blanc.,даёт шерсть,ANIMALS,FR
+23,un cochon,свинья,Le cochon est dans la ferme.,сельхоз животное,ANIMALS,FR
+24,un lapin,кролик,Le lapin saute.,маленький зверёк,ANIMALS,FR
+25,une souris,мышь,La souris court.,маленький грызун,ANIMALS,FR
+26,un lion,лев,Le lion rugit.,хищник,ANIMALS,FR
+27,un tigre,тигр,Le tigre chasse.,полосатый хищник,ANIMALS,FR
+28,un éléphant,слон,L’éléphant est grand.,крупное животное,ANIMALS,FR
+29,un ours,медведь,L’ours dort.,крупный лесной зверь,ANIMALS,FR
+30,un loup,волк,Le loup hurle.,дикий хищник,ANIMALS,FR
+31,un renard,лиса,Le renard est rusé.,хитрый зверь,ANIMALS,FR
+32,un cerf,олень,Le cerf court.,лесное животное,ANIMALS,FR
+33,un singe,обезьяна,Le singe grimpe.,похож на человека,ANIMALS,FR
+34,un oiseau,птица,L’oiseau vole.,имеет крылья,ANIMALS,FR
+35,une table,стол,La table est grande.,мебель,OBJECTS,FR
+36,une chaise,стул,Je m’assois sur la chaise.,предмет для сидения,OBJECTS,FR
+37,un téléphone,телефон,J’utilise le téléphone.,устройство связи,OBJECTS,FR
+38,un ordinateur,компьютер,L’ordinateur est allumé.,электронное устройство,OBJECTS,FR
+39,un livre,книга,Je lis un livre.,источник информации,OBJECTS,FR
+40,un stylo,ручка,J’écris avec un stylo.,предмет для письма,OBJECTS,FR
+41,une tasse,чашка,Je bois dans la tasse.,посуда,OBJECTS,FR
+42,une clé,ключ,J’ouvre avec une clé.,открывает замок,OBJECTS,FR
+43,un sac,сумка,Le sac est lourd.,для переноски вещей,OBJECTS,FR
+44,une montre,часы,Je regarde ma montre.,показывает время,OBJECTS,FR
+45,une lampe,лампа,La lampe éclaire.,источник света,OBJECTS,FR
+46,une cuillère,ложка,Je prends une cuillère.,столовый прибор,OBJECTS,FR
+47,une fourchette,вилка,La fourchette est propre.,прибор с зубцами,OBJECTS,FR
+48,une assiette,тарелка,L’assiette est blanche.,для еды,OBJECTS,FR
+49,une fenêtre,окно,La fenêtre est ouverte.,пропускает свет,OBJECTS,FR
+50,une porte,дверь,La porte est fermée.,вход в помещение,OBJECTS,FR
+51,une bouteille,бутылка,La bouteille est pleine.,ёмкость для жидкости,OBJECTS,FR
+52,manger,есть,Je mange.,принимать пищу,VERBS,FR
+53,boire,пить,Je bois de l’eau.,принимать жидкость,VERBS,FR
+54,courir,бегать,Je cours vite.,двигаться быстро,VERBS,FR
+55,marcher,ходить,Je marche.,двигаться шагами,VERBS,FR
+56,dormir,спать,Je dors bien.,отдых организма,VERBS,FR
+57,lire,читать,Je lis.,воспринимать текст,VERBS,FR
+58,écrire,писать,J’écris une lettre.,создавать текст,VERBS,FR
+59,parler,говорить,Je parle français.,использовать речь,VERBS,FR
+60,écouter,слушать,J’écoute la musique.,воспринимать звук,VERBS,FR
+61,penser,думать,Je pense beaucoup.,размышлять,VERBS,FR
+62,jouer,играть,Les enfants jouent.,развлекаться,VERBS,FR
+63,ouvrir,открывать,J’ouvre la porte.,делать доступным,VERBS,FR
+64,fermer,закрывать,Je ferme la fenêtre.,делать закрытым,VERBS,FR
+65,acheter,покупать,J’achète du pain.,приобретать,VERBS,FR
+66,apprendre,учить,J’apprends le français.,получать знания,VERBS,FR
+67,travailler,работать,Je travaille ici.,выполнять работу,VERBS,FR
+68,une voiture,автомобиль,La voiture roule.,машина,TRANSPORT,FR
+69,un bus,автобус,Je prends le bus.,общественный транспорт,TRANSPORT,FR
+70,un train,поезд,Le train arrive.,рельсовый транспорт,TRANSPORT,FR
+71,un avion,самолёт,L’avion décolle.,летательный аппарат,TRANSPORT,FR
+72,un vélo,велосипед,Je roule à vélo.,двухколёсный транспорт,TRANSPORT,FR
+73,une moto,мотоцикл,La moto est rapide.,мотор на двух колёсах,TRANSPORT,FR
+74,un bateau,лодка,Le bateau flotte.,водный транспорт,TRANSPORT,FR
+75,un navire,корабль,Le navire part.,большое судно,TRANSPORT,FR
+76,un taxi,такси,Je prends un taxi.,платный транспорт,TRANSPORT,FR
+77,un tramway,трамвай,Le tramway passe.,городской транспорт,TRANSPORT,FR
+78,un métro,метро,Le métro est rapide.,подземный поезд,TRANSPORT,FR
+79,un camion,грузовик,Le camion livre.,перевозит грузы,TRANSPORT,FR
+80,une camionnette,фургон,La camionnette est blanche.,малый грузовик,TRANSPORT,FR
+81,un scooter,скутер,Je conduis un scooter.,лёгкий транспорт,TRANSPORT,FR
+82,un hélicoptère,вертолёт,L’hélicoptère vole.,винтокрылый аппарат,TRANSPORT,FR
+83,un ferry,паром,Le ferry traverse.,судно для перевозки,TRANSPORT,FR
+84,une école,школа,L’enfant va à l’école.,место обучения,PLACES,FR
+85,un hôpital,больница,L’hôpital est grand.,лечебное учреждение,PLACES,FR
+86,un parc,парк,Nous marchons dans le parc.,место для отдыха,PLACES,FR
+87,un restaurant,ресторан,Le restaurant est ouvert.,заведение с едой,PLACES,FR
+88,un supermarché,супермаркет,J’achète ici.,большой магазин,PLACES,FR
+89,un aéroport,аэропорт,L’aéroport est loin.,место самолётов,PLACES,FR
+90,une gare,вокзал,La gare est bondée.,станция поездов,PLACES,FR
+91,une bibliothèque,библиотека,Je lis à la bibliothèque.,место книг,PLACES,FR
+92,un musée,музей,Le musée est intéressant.,место искусства,PLACES,FR
+93,une plage,пляж,La plage est belle.,у моря,PLACES,FR
+94,un hôtel,отель,L’hôtel est cher.,место проживания,PLACES,FR
+95,un cinéma,кинотеатр,Le cinéma est fermé.,смотрят фильмы,PLACES,FR
+96,une église,церковь,L’église est ancienne.,религиозное здание,PLACES,FR
+97,un marché,рынок,Le marché est animé.,место торговли,PLACES,FR
+98,une banque,банк,Je vais à la banque.,финансовое учреждение,PLACES,FR
+99,un bureau,офис,Le bureau est calme.,рабочее место,PLACES,FR
+100,une ville,город,La ville est grande.,населённый пункт,PLACES,FR

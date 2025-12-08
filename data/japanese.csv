@@ -1,0 +1,101 @@
+﻿id,term,translation,example_sentence,hint,topic,language
+1,ringo,яблоко,Watashi wa ringo o tabemasu.,красный или зелёный фрукт,FOOD,JP
+2,pan,хлеб,Pan o kaimasu.,изделие из муки,FOOD,JP
+3,chīzu,сыр,Chīzu ga suki desu.,молочный продукт,FOOD,JP
+4,gyūnyū,молоко,Gyūnyū o nomimasu.,белый напиток,FOOD,JP
+5,tamago,яйцо,Tamago o tsukaimasu.,продукт птиц,FOOD,JP
+6,gohan,рис,Gohan o tabemasu.,основная еда в Японии,FOOD,JP
+7,niku,мясо,Niku o yakimasu.,продукт животного происхождения,FOOD,JP
+8,sakana,рыба,Sakana o tabemasu.,живёт в воде,FOOD,JP
+9,yasai,овощи,Yasai o kaimasu.,растительная еда,FOOD,JP
+10,tomato,помидор,Tomato o tabemasu.,красный сочный овощ,FOOD,JP
+11,ninjin,морковь,Ninjin o kirimasu.,оранжевый овощ,FOOD,JP
+12,banana,банан,Banana o tabemasu.,жёлтый фрукт,FOOD,JP
+13,orenji,апельсин,Orenji o tabemasu.,цитрусовый фрукт,FOOD,JP
+14,butā,сливочное масло,Butā o tsukaimasu.,молочный жир,FOOD,JP
+15,sūpu,суп,Sūpu o nomimasu.,жидкое блюдо,FOOD,JP
+16,kēki,торт,Kēki o tabemasu.,сладкий десерт,FOOD,JP
+17,kōhī,кофе,Kōhī o nomimasu.,горячий напиток,FOOD,JP
+18,neko,кошка,Neko ga imasu.,домашнее животное,ANIMALS,JP
+19,inu,собака,Inu ga hashirimasu.,верный питомец,ANIMALS,JP
+20,uma,лошадь,Uma ga arukimasu.,животное для езды,ANIMALS,JP
+21,ushi,корова,Ushi ga imasu.,даёт молоко,ANIMALS,JP
+22,hitsuji,овца,Hitsuji ga imasu.,даёт шерсть,ANIMALS,JP
+23,buta,свинья,Buta ga imasu.,сельхоз животное,ANIMALS,JP
+24,usagi,кролик,Usagi ga toびmasu.,маленькое животное,ANIMALS,JP
+25,nezumi,мышь,Nezumi ga imasu.,маленький грызун,ANIMALS,JP
+26,raion,лев,Raion wa tsuyoi desu.,царь зверей,ANIMALS,JP
+27,tora,тигр,Tora wa hayai desu.,полосатый хищник,ANIMALS,JP
+28,zō,слон,Zō wa ookii desu.,крупнейшее животное,ANIMALS,JP
+29,kuma,медведь,Kuma ga imasu.,крупный лесной зверь,ANIMALS,JP
+30,ōkami,волк,Ōkami ga nakimasu.,дикий хищник,ANIMALS,JP
+31,kitsune,лиса,Kitsune wa kashikoi desu.,хитрое животное,ANIMALS,JP
+32,shika,олень,Shika ga hashirimasu.,лесное животное,ANIMALS,JP
+33,saru,обезьяна,Saru ga asobimasu.,похожа на человека,ANIMALS,JP
+34,tori,птица,Tori ga tobimasu.,имеет крылья,ANIMALS,JP
+35,tsukue,стол,Tsukue ga arimasu.,мебель,OBJECTS,JP
+36,isu,стул,Isu ni suwarimasu.,для сидения,OBJECTS,JP
+37,denwa,телефон,Denwa o tsukaimasu.,средство связи,OBJECTS,JP
+38,pasokon,компьютер,Pasokon o tsukaimasu.,электронное устройство,OBJECTS,JP
+39,hon,книга,Hon o yomimasu.,для чтения,OBJECTS,JP
+40,enpitsu,карандаш,Enpitsu o tsukaimasu.,для письма и рисования,OBJECTS,JP
+41,koppu,чашка,Koppu o tsukaimasu.,для напитков,OBJECTS,JP
+42,kagi,ключ,Kagi o akemasu.,открывает замок,OBJECTS,JP
+43,kaban,сумка,Kaban o mochimasu.,для переноски вещей,OBJECTS,JP
+44,tokei,часы,Tokei o mimasu.,показывает время,OBJECTS,JP
+45,denkyū,лампа,Denkyū o tsukemasu.,даёт свет,OBJECTS,JP
+46,supu-n,ложка,Supūn o tsukaimasu.,столовый прибор,OBJECTS,JP
+47,fōku,вилка,Fōku o tsukaimasu.,прибор с зубцами,OBJECTS,JP
+48,osara,тарелка,Osara o tsukaimasu.,для еды,OBJECTS,JP
+49,mado,окно,Mado o akemasu.,пропускает свет,OBJECTS,JP
+50,doa,дверь,Doa o shimeru.,вход в помещение,OBJECTS,JP
+51,bin,бутылка,Bin ga arimasu.,для жидкости,OBJECTS,JP
+52,taberu,есть,Watashi wa taberu.,принимать пищу,VERBS,JP
+53,nomu,пить,Mizu o nomu.,питьё,VERBS,JP
+54,hashiru,бегать,Hashiru no ga suki.,быстро двигаться,VERBS,JP
+55,aruku,ходить,Aruku no ga suki.,двигаться пешком,VERBS,JP
+56,neru,спать,Yoku neru.,отдыхать,VERBS,JP
+57,yomu,читать,Hon o yomu.,читать текст,VERBS,JP
+58,kaku,писать,Tegami o kaku.,писать слова,VERBS,JP
+59,hanasu,говорить,Nihongo o hanasu.,использовать речь,VERBS,JP
+60,kiku,слушать,Ongaku o kiku.,воспринимать звук,VERBS,JP
+61,kangaeru,думать,Yoku kangaeru.,размышлять,VERBS,JP
+62,asobu,играть,Kodomo ga asobu.,развлекаться,VERBS,JP
+63,akeru,открывать,Doa o akeru.,делать открытым,VERBS,JP
+64,shimeru,закрывать,Mado o shimeru.,делать закрытым,VERBS,JP
+65,kau,покупать,Pan o kau.,приобретать,VERBS,JP
+66,benkyō suru,учиться,Nihongo o benkyō suru.,изучать,VERBS,JP
+67,hataraku,работать,Kaisha de hataraku.,выполнять работу,VERBS,JP
+68,kuruma,машина,Kuruma de ikimasu.,личный транспорт,TRANSPORT,JP
+69,basu,автобус,Basu ni norimasu.,общественный транспорт,TRANSPORT,JP
+70,densha,поезд,Densha ga kimasu.,ездит по рельсам,TRANSPORT,JP
+71,hikōki,самолёт,Hikōki de toびmasu.,летает,TRANSPORT,JP
+72,jitensha,велосипед,Jitensha ni noru.,двухколёсный,TRANSPORT,JP
+73,baiku,мотоцикл,Baiku ga hayai.,двигатель на колёсах,TRANSPORT,JP
+74,fune,лодка,Fune ni noru.,водный транспорт,TRANSPORT,JP
+75,ship,корабль,Ship ga deru.,большое судно,TRANSPORT,JP
+76,takushī,такси,Takushī o yobu.,платный транспорт,TRANSPORT,JP
+77,toramu,трамвай,Toramu ni noru.,городской транспорт,TRANSPORT,JP
+78,chikatetsu,метро,Chikatetsu ga hayai.,подземный поезд,TRANSPORT,JP
+79,kamion,грузовик,Kamion ga hashiru.,перевозит грузы,TRANSPORT,JP
+80,sukūtā,скутер,Sukūtā ni noru.,лёгкий транспорт,TRANSPORT,JP
+81,herikoputā,вертолёт,Herikoputā ga tobu.,летает вертикально,TRANSPORT,JP
+82,fuerī,паром,Fuerī ni noru.,перевозит по воде,TRANSPORT,JP
+83,jidōsha,автомобиль,Jidōsha o unten suru.,моторное средство,TRANSPORT,JP
+84,gakkō,школа,Gakkō e ikimasu.,место учёбы,PLACES,JP
+85,byōin,больница,Byōin ni ikimasu.,лечат людей,PLACES,JP
+86,kōen,парк,Kōen de asobu.,место отдыха,PLACES,JP
+87,resutoran,ресторан,Resutoran de taberu.,место для еды,PLACES,JP
+88,sūpā,супермаркет,Sūpā e iku.,большой магазин,PLACES,JP
+89,kūkō,аэропорт,Kūkō ni tsuku.,для самолётов,PLACES,JP
+90,eki,вокзал,Eki de au.,станция поездов,PLACES,JP
+91,toshokan,библиотека,Toshokan de yomu.,много книг,PLACES,JP
+92,bijutsukan,музей,Bijutsukan o miru.,место искусства,PLACES,JP
+93,umi,пляж,Umi e iku.,у моря,PLACES,JP
+94,hoteru,отель,Hoteru ni tomaru.,место для ночёвки,PLACES,JP
+95,eiga-kan,кинотеатр,Eiga-kan e iku.,смотрят фильмы,PLACES,JP
+96,kyōkai,церковь,Kyōkai ni hairu.,религиозное здание,PLACES,JP
+97,ichiba,рынок,Ichiba e iku.,место торговли,PLACES,JP
+98,ginkō,банк,Ginkō ni iku.,финансовое учреждение,PLACES,JP
+99,ofisu,офис,Ofisu de hataraku.,рабочее место,PLACES,JP
+100,machi,город,Machi ga ookii.,населённый пункт,PLACES,JP

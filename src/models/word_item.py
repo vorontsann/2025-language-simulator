@@ -1,9 +1,12 @@
 from pydantic import BaseModel
-from .topic import Topic
+
 from .language import Language
+from .topic import Topic
 
 
 class WordItem(BaseModel):
+    """Signs for each trained word."""
+
     id: int
     term: str
     translation: str

@@ -1,0 +1,101 @@
+﻿id,term,translation,example_sentence,hint,topic,language
+1,apple,яблоко,I eat an apple every morning.,"круглый фрукт, часто красный или зелёный",FOOD,EN
+2,bread,хлеб,She bought fresh bread from the bakery.,"основной продукт из теста, выпекается",FOOD,EN
+3,cheese,сыр,He put cheese on his sandwich.,"молочный продукт, чаще твёрдый или плавленый",FOOD,EN
+4,milk,молоко,I drink milk with my cereal.,белая жидкость от коровы или других животных,FOOD,EN
+5,egg,яйцо,She fried an egg for breakfast.,"продукт птиц, часто куриное",FOOD,EN
+6,rice,рис,They cooked rice as a side dish.,"мелкие зерна, основной источник углеводов",FOOD,EN
+7,pasta,паста,We had pasta with tomato sauce.,"блюдо из теста, например спагетти",FOOD,EN
+8,chicken,курица,He prefers chicken for dinner.,"мясо птицы, часто курятина",FOOD,EN
+9,beef,говядина,Beef tastes great in stews.,мясо коровы,FOOD,EN
+10,fish,рыба,She grills fish on weekends.,"водное животное, используется в еде",FOOD,EN
+11,carrot,морковь,The rabbit ate a carrot.,оранжевый корнеплод,FOOD,EN
+12,potato,картофель,They mashed the potatoes.,крахмалистый корнеплод,FOOD,EN
+13,tomato,помидор,He sliced a tomato for the salad.,"сочный овощ/фрукт, красный",FOOD,EN
+14,onion,лук,Onion makes the soup flavorful.,острый луковичный овощ,FOOD,EN
+15,banana,банан,She peeled a banana and ate it.,длинный жёлтый фрукт,FOOD,EN
+16,orange,апельсин,He drank fresh orange juice.,круглый цитрусовый фрукт,FOOD,EN
+17,butter,масло,Spread butter on the toast.,жирный молочный продукт для готовки или намазывания,FOOD,EN
+18,cat,кот/кошка,The cat is sleeping on the sofa.,"домашнее пушистое животное, мяукает",ANIMALS,EN
+19,dog,собака,The dog likes to play fetch.,"домашнее животное, лает, верный друг",ANIMALS,EN
+20,horse,лошадь,They rode a horse in the field.,"крупное животное, используют для езды",ANIMALS,EN
+21,cow,корова,The cow grazed in the meadow.,"даёт молоко, крупный сельскохозяйственный зверь",ANIMALS,EN
+22,sheep,овца,Sheep have thick wool.,"животное, дающее шерсть",ANIMALS,EN
+23,pig,свинья,The pig rolled in the mud.,"сельскохозяйственное животное, свинья",ANIMALS,EN
+24,rabbit,кролик,The rabbit hopped across the yard.,"маленькое пушистое животное, прыгает",ANIMALS,EN
+25,mouse,мышь,A mouse ran across the floor.,маленькое грызуновидное животное,ANIMALS,EN
+26,lion,лев,The lion roared loudly.,"крупный хищник, 'царь зверей'",ANIMALS,EN
+27,tiger,тигр,The tiger has distinctive stripes.,большой полосатый хищник,ANIMALS,EN
+28,elephant,слон,The elephant has a long trunk.,самое крупное наземное млекопитающее,ANIMALS,EN
+29,bear,медведь,A bear searched for honey.,"крупное сильное животное, часто хищник",ANIMALS,EN
+30,wolf,волк,Wolves hunt in packs.,"дикий хищник, родственник собаки",ANIMALS,EN
+31,fox,лиса,The fox was quick and clever.,небольшой хищник с рыжей шерстью,ANIMALS,EN
+32,deer,олень,A deer crossed the road.,изящное травоядное животное,ANIMALS,EN
+33,monkey,обезьяна,The monkey climbed the tree.,"подвижное животное, похоже на человека",ANIMALS,EN
+34,bird,птица,A bird sang outside the window.,"животное, обычно умеет летать и имеет перья",ANIMALS,EN
+35,table,стол,The plates are on the table.,мебель для размещения предметов и еды,OBJECTS,EN
+36,chair,стул,Please sit on the chair.,мебель для сидения,OBJECTS,EN
+37,phone,телефон,She answered the phone quickly.,устройство для звонков и сообщений,OBJECTS,EN
+38,computer,компьютер,He types on his computer.,электронное устройство для обработки информации,OBJECTS,EN
+39,book,книга,She read a book before bed.,напечатанный или электронный текст для чтения,OBJECTS,EN
+40,pen,ручка,Use a pen to sign the document.,инструмент для письма,OBJECTS,EN
+41,cup,чашка,He drank tea from a cup.,сосуда для напитков,OBJECTS,EN
+42,key,ключ,She put the key in the lock.,металлический предмет для открытия замков,OBJECTS,EN
+43,bag,сумка,She carried books in a bag.,контейнер для переноски вещей,OBJECTS,EN
+44,watch,часы,He looked at his watch.,наручное устройство для определения времени,OBJECTS,EN
+45,lamp,лампа,Turn on the lamp at night.,источник света для комнаты или стола,OBJECTS,EN
+46,spoon,ложка,Stir the soup with a spoon.,кухонный прибор для еды и перемешивания,OBJECTS,EN
+47,fork,вилка,Use a fork to eat pasta.,прибор с зубцами для поднятия пищи,OBJECTS,EN
+48,plate,тарелка,Place the salad on the plate.,плоский предмет для подачи еды,OBJECTS,EN
+49,window,окно,Open the window to get fresh air.,проём в стене для света и воздуха,OBJECTS,EN
+50,door,дверь,Close the door behind you.,подвижная панель для входа и выхода,OBJECTS,EN
+51,bottle,бутылка,She filled the bottle with water.,сосуд с узким горлом для жидкостей,OBJECTS,EN
+52,run,бегать,He can run very fast.,двигаться быстро на ногах,VERBS,EN
+53,walk,ходить,They walk to school every day.,"двигаться шагами, медленнее бега",VERBS,EN
+54,eat,есть,We eat dinner at six.,принимать пищу,VERBS,EN
+55,drink,пить,She likes to drink coffee.,принимать жидкости,VERBS,EN
+56,sleep,спать,The baby sleeps peacefully.,находиться в состоянии покоя и восстановления,VERBS,EN
+57,read,читать,I read a short story.,воспринимать текст глазами,VERBS,EN
+58,write,писать,Please write your name here.,создавать текст с помощью рук или клавиатуры,VERBS,EN
+59,speak,говорить,Can you speak louder?,произносить слова устно,VERBS,EN
+60,listen,слушать,Listen to the teacher carefully.,восприятие звуков ухом,VERBS,EN
+61,cook,готовить,He can cook Italian food.,приготовление еды,VERBS,EN
+62,swim,плавать,They swim in the lake.,двигаться в воде,VERBS,EN
+63,jump,прыгать,The child can jump high.,"отталкиваться от поверхности, лететь вверх",VERBS,EN
+64,think,думать,I need time to think.,процесс размышления и мышления,VERBS,EN
+65,play,играть,Children play in the park.,заниматься развлечением или игрой,VERBS,EN
+66,open,открывать,"Open the window, please.",делать доступным или незакрытым,VERBS,EN
+67,close,закрывать,Close the book when you finish.,делать закрытым,VERBS,EN
+68,buy,покупать,She will buy a new coat.,приобретать за деньги,VERBS,EN
+69,car,автомобиль,He drove a car to work.,персональное средство передвижения на колёсах,TRANSPORT,EN
+70,bus,автобус,They took the bus downtown.,общественный транспорт на дороге,TRANSPORT,EN
+71,train,поезд,The train arrived on time.,железнодорожный транспорт,TRANSPORT,EN
+72,plane,самолёт,The plane landed safely.,воздушное транспортное средство,TRANSPORT,EN
+73,bicycle,велосипед,She rides a bicycle to the park.,двухколёсное транспортное средство без двигателя,TRANSPORT,EN
+74,motorcycle,мотоцикл,He bought a new motorcycle.,двухколёсный моторизированный транспорт,TRANSPORT,EN
+75,ship,корабль,The ship sailed into the harbor.,большое судно для моря,TRANSPORT,EN
+76,boat,лодка,They rented a boat on the lake.,меньшее судно для воды,TRANSPORT,EN
+77,tram,трамвай,The tram runs through the city center.,рельсовый городской транспорт,TRANSPORT,EN
+78,subway,метро,We took the subway to the museum.,подземный городской поезд,TRANSPORT,EN
+79,taxi,такси,He called a taxi home.,платный автомобильный сервис для пассажиров,TRANSPORT,EN
+80,scooter,самокат/скутер,She rode a scooter along the path.,"легкий личный транспорт, иногда моторизированный",TRANSPORT,EN
+81,van,фургон,They moved boxes with a van.,большой автомобиль для грузов или пассажиров,TRANSPORT,EN
+82,truck,грузовик,The truck delivered the goods.,транспорт для перевозки тяжёлых грузов,TRANSPORT,EN
+83,helicopter,вертолёт,A helicopter hovered above.,вертикально взлетающее летательное средство,TRANSPORT,EN
+84,ferry,паром,The ferry carried people across the river.,судно для перевозки людей и машин по воде,TRANSPORT,EN
+85,school,школа,Children go to school every weekday.,учебное заведение для обучения детей,PLACES,EN
+86,hospital,больница,He visited the hospital yesterday.,медицинское учреждение для лечения,PLACES,EN
+87,park,парк,They walked in the park.,зеленая зона для отдыха,PLACES,EN
+88,restaurant,ресторан,We ate at a nice restaurant.,"место, где подают еду за плату",PLACES,EN
+89,supermarket,супермаркет,Buy milk at the supermarket.,большой магазин с продуктами и товарами,PLACES,EN
+90,airport,аэропорт,The airport was crowded.,место отправления и прилёта самолётов,PLACES,EN
+91,station,станция,Meet me at the station.,место остановки поезда или автобуса,PLACES,EN
+92,library,библиотека,She borrowed a book from the library.,хранилище книг и мест для чтения,PLACES,EN
+93,museum,музей,They saw ancient artifacts at the museum.,место хранения и экспозиции предметов истории и искусства,PLACES,EN
+94,beach,пляж,We spent the day at the beach.,песчаная или галечная зона у воды для отдыха,PLACES,EN
+95,hotel,отель,They stayed in a hotel during the trip.,место для временного проживания,PLACES,EN
+96,cinema,кинотеатр,Let's watch a new movie at the cinema.,место для просмотра фильмов,PLACES,EN
+97,church,церковь,People gathered at the church.,религиозное здание для служб,PLACES,EN
+98,market,рынок,Buy fresh vegetables at the market.,"место торговли, часто на открытом воздухе",PLACES,EN
+99,bank,банк,She deposited money at the bank.,финансовое учреждение для операций с деньгами,PLACES,EN
+100,office,офис,He works in a downtown office.,рабочее помещение для бизнеса или административных задач,PLACES,EN
